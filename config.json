@@ -1,0 +1,21 @@
+{
+    "telegramBotToken": "",
+    "telegramChatId": "",
+    "csvFile": "./statictic.csv",
+    "productsToMonitor": [
+        {
+            "isEnabled": 1,
+            "productName": "product1",
+            "productUrl": "https://",
+            "productXpath": "//*[@id=\"__layout\"]/div/main/section/article/div[4]/div/div[1]/div/div[1]/div[1]/div/div/div[1]",
+            "productLastPrice": "222.00"
+        },
+        {
+            "isEnabled": 1,
+            "productName": "product2",
+            "productUrl": "https://",
+            "productXpath": "//*[@id=\"corePrice_desktop\"]/div/table/tbody/tr[1]/td[2]/span[1]/span[2]",
+            "productLastPrice": "€202.90"
+        }
+    ]
+}
